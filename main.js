@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const https = require('https');
 
-
+// Проверка на стандартные аватарки
 const excludedSrcList = [
   "http://esx.bigo.sg/live/g1/M00/05/71/nXfpBFlKHcSIEifkAAAVcvRcLE8AAIfoAKuzhYAABWK788.jpg",
   "http://esx.bigo.sg/live/g1/M00/05/71/nXfpBFlKHcSIEifkAAAVcvRcLE8AAIfoAKuzhYAABWK788.jpg",
